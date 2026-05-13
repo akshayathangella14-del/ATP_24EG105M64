@@ -1,0 +1,30 @@
+###Read all employees (req to protected route)
+GET http://localhost:4000/employee-api/employees
+
+### Create new employee
+POST http://localhost:4000/employee-api/employees
+Content-Type: application/json
+
+{
+    "name":"Bhavya",
+    "email":"bhavya@gmail.com",
+    "mobile":8953564530,
+    "designation":"Data Analyst",
+    "companyName":"JP Morgan"
+}
+
+### Update a employee
+PUT http://localhost:4000/employee-api/employees/69ca1a27ba13c47d1193a7d7
+Content-Type: application/json
+
+{ 
+   "name":"Akshaya",
+    "email":"akshaya@gmail.com",
+    "mobile":9876543210,
+    "designation":"Manager",
+    "companyName":"Google" 
+}
+
+### Delete the employee
+DELETE http://localhost:4000/employee-api/employees/69ca1c5024622d463650dd92
+

@@ -1,0 +1,83 @@
+###Read all users
+GET http://localhost:3000/user-api/users
+
+### Read a user by id
+GET http://localhost:3000/user-api/users/64
+
+### Create new user
+POST http://localhost:3000/user-api/users
+Content-Type: application/json
+
+{
+    "id":64,
+    "name":"Akshaya",
+    "age": 20
+}
+
+### Update a user
+PUT http://localhost:3000/user-api/users
+Content-Type: application/json
+
+{
+    "id":64,
+    "name":"Rahul",
+    "age": 22
+}
+
+### Delete the user
+DELETE http://localhost:3000/user-api/users/64
+
+
+--------------------------------------------------------------------------------------------
+### Read all products
+GET http://localhost:3000/product-api/products
+
+### Read a product by brand
+GET http://localhost:3000/product-api/products/Lenovo
+
+### Create Product 1
+POST http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+    "productId": 1,
+    "name": "Laptop",
+    "brand": "Lenovo",
+    "price": 70000
+}
+
+### Create Product 2
+POST http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+    "productId": 2,
+    "name": "Mouse",
+    "brand": "Lenovo",
+    "price": 1000
+}
+
+### Create Product 3
+POST http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+    "productId": 3,
+    "name": "Keyboard",
+    "brand": "HP",
+    "price": 2000
+}
+
+### Update a product
+PUT http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+   "productId":2,
+    "name":"CPU",
+    "brand":"Hp",
+    "price":40000 
+}
+
+### Delete the product by id
+DELETE http://localhost:3000/product-api/products/1
