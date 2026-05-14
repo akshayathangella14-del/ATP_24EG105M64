@@ -1,6 +1,7 @@
 //Searching an element using function
 function searchElement(arr, key) 
 {
+    //Iterating through the array to find the key element
     for (let i = 0; i < arr.length; i++) 
     {
         if (arr[i] === key) 

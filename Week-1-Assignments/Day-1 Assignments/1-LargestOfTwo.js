@@ -3,5 +3,6 @@ let a=3;
 let b=7;
 if(a>b) //Checking condition
     console.log("a is the largest number");
+//If a is not greater than b then b is the largest number    
 else
     console.log("b is the largest number");
