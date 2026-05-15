@@ -1,5 +1,3 @@
-This `README.md` file provides a detailed overview of the web layout and frontend framework assignments completed during the fifth week of the ATP MERN program. This week transitions from static HTML to advanced styling with **CSS** and **Tailwind**, culminating in the creation of two functional **React applications**.
-
 # ATP-MERN-Week-5-Assignments
 
 This repository contains the Week 5 curriculum, focusing on advanced styling techniques and the introduction of component-based architecture using React.
